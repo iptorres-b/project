@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "./pages/layout/Layout"
+import Main from "./pages/main/Main"
 
 function App() {
   return (
     <React.Fragment>
     <Layout>
-      <p>Hello</p>
+      <Main></Main>
     </Layout>
     </React.Fragment>
   );
