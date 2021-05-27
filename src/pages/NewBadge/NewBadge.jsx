@@ -21,12 +21,22 @@ class NewBadge extends React.Component{
         }
     }
 
+    handleChange = event =>{
+        this.setState({
+            form:{
+                ...this.state.form,
+                [event.target.name]: event.target.value
+            }
+        })
+    }
+
     render(){
         return(
             <React.Fragment>
                 <Hero h={"15vh"}></Hero>
                 <div className="container">
-                    <div className="col">
+                    <div className="row">
+                    <div className="col-6">
                         <Badge
                         header_picture = {this.state.form.header_picture || "https://www.universetoday.com/wp-content/uploads/2021/04/speckle.jpg"}
                         profile_picture = {this.state.form.profile_picture || "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"}
@@ -38,8 +48,12 @@ class NewBadge extends React.Component{
                         posts = {this.state.form.posts || "0"}
                         ></Badge>
                     </div>
-                    <div className="col">
-                        <BadgeForm></BadgeForm>
+                    <div className="col-6">
+                        <BadgeForm 
+                        onChange={this.handleChange}
+                        onSubmit={this.handleSubmit}
+                        formValues={this.state.form}></BadgeForm>
+                    </div>
                     </div>
                 </div>
             </React.Fragment>
