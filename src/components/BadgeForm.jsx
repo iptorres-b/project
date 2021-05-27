@@ -5,9 +5,9 @@ class BadgeForm extends Component{
     render(){
         return(
             <React.Fragment>
-                <div className="BadgeForm m-5">
+                <div className="BadgeForm m-4">
                     <form onSubmit={this.props.onSubmit}>
-                        <div className="form-group mb-2">
+                        <div className="form-group mb-1">
                             <label className="mb-1">
                                 Name
                             </label>

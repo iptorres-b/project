@@ -30,6 +30,10 @@ class NewBadge extends React.Component{
         })
     }
 
+    handleSubmit = async (event) =>{
+        event.preventDefault();
+    }
+
     render(){
         return(
             <React.Fragment>
