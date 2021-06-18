@@ -1,12 +1,12 @@
-import React from "react"
-import { BrowserRouter, Route, Switch } from "react-router-dom"
-import Layout from "../src/pages/layout/Layout"
-import Main from "../src/pages/main/Main"
-import NewBadge from "../src/pages/NewBadge/NewBadge"
-import LogIn from "../src/pages/LogIn/LogIn"
-import SignIn from "../src/pages/SignIn/SignIn"
-import Error404 from "../src/pages/Error/error"
-import Badges from "../src/pages/Badges/Badges"
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Layout from "../src/pages/layout/Layout";
+import Main from "../src/pages/main/Main";
+import NewBadge from "../src/pages/NewBadge/NewBadge";
+import LogIn from "../src/pages/LogIn/LogIn";
+import SignIn from "../src/pages/SignIn/SignIn";
+import Error404 from "../src/pages/Error/error";
+import Badges from "../src/pages/Badges/Badges";
 
 function App() {
   return (
