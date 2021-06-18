@@ -21,6 +21,28 @@
       "likes": "",
       "posts": "",
       "id": 2
+    },
+    {
+      "header_picture": "https://images.pexels.com/photos/3560168/pexels-photo-3560168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "profile_picture": "https://images.pexels.com/photos/3828240/pexels-photo-3828240.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Marlene",
+      "age": "24",
+      "city": "Phoenix, Az.",
+      "followers": "",
+      "likes": "",
+      "posts": "",
+      "id": 3
+    },
+    {
+      "header_picture": "https://images.pexels.com/photos/2362002/pexels-photo-2362002.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "profile_picture": "https://images.pexels.com/photos/3828240/pexels-photo-3828240.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Paulina Torres",
+      "age": "25",
+      "city": "California",
+      "followers": "",
+      "likes": "",
+      "posts": "",
+      "id": 4
     }
   ]
 }
